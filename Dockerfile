@@ -1,4 +1,3 @@
-FROM  node:alpine
-COPY . /app
+FROM  node:lts-alpine3.13
 WORKDIR /app
-CMD node app.js
+COPY . .
